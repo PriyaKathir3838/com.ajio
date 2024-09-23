@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.ajio.women">
+        <methods>
+          <include name="validate_BIBA_Productpage"/>
+          <include name="click_On_BIBA"/>
+          <include name="nextpage_on_BIBA"/>
+          <include name="Click_On_Women"/>
+          <include name="Validate_Women_Page"/>
+        </methods>
+      </class> <!-- com.ajio.women -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

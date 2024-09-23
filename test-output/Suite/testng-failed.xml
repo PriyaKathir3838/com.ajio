@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]">
+  <parameter name="browser" value="edge"/>
+  <parameter name="URL" value="https://www.myntra.com/"/>
+  <listeners>
+    <listener class-name="com.ajio.rerun.Transformer"/>
+  </listeners>
+  <test parallel="tests" name="Test1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="URL" value="https://www.myntra.com/"/>
+    <classes>
+      <class name="com.ajio.women">
+        <methods>
+          <include name="close_The_Application"/>
+          <include name="launch_Application"/>
+          <include name="before"/>
+          <include name="Click_On_Women"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- com.ajio.women -->
+      <class name="com.ajio.Kids">
+        <methods>
+          <include name="close_The_Application"/>
+          <include name="after_Method"/>
+          <include name="launch_Application"/>
+          <include name="before_Method"/>
+        </methods>
+      </class> <!-- com.ajio.Kids -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test parallel="tests" name="Test2(failed)">
+    <parameter name="browser" value="edge"/>
+    <parameter name="URL" value="https://www.myntra.com/"/>
+    <classes>
+      <class name="com.ajio.women">
+        <methods>
+          <include name="close_The_Application"/>
+          <include name="launch_Application"/>
+          <include name="before"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- com.ajio.women -->
+      <class name="com.ajio.Kids">
+        <methods>
+          <include name="close_The_Application"/>
+          <include name="after_Method"/>
+          <include name="launch_Application"/>
+          <include name="before_Method"/>
+          <include name="validate_Brand" invocation-numbers="1 1 1"/>
+        </methods>
+      </class> <!-- com.ajio.Kids -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

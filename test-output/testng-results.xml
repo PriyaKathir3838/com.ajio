@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="16" passed="10" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-21T22:14:30Z" name="Suite" finished-at="2024-09-21T22:16:27Z" duration-ms="116781">
+    <groups>
+      <group name="regression">
+        <method signature="women.Click_On_Women()[pri:0, instance:com.ajio.women@1e097d59]" name="Click_On_Women" class="com.ajio.women"/>
+        <method signature="women.Validate_Women_Page()[pri:0, instance:com.ajio.women@1e097d59]" name="Validate_Women_Page" class="com.ajio.women"/>
+        <method signature="Kids.click_On_Kids()[pri:0, instance:com.ajio.Kids@4331d187]" name="click_On_Kids" class="com.ajio.Kids"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="women.click_On_BIBA()[pri:0, instance:com.ajio.women@1e097d59]" name="click_On_BIBA" class="com.ajio.women"/>
+        <method signature="women.nextpage_on_BIBA()[pri:0, instance:com.ajio.women@1e097d59]" name="nextpage_on_BIBA" class="com.ajio.women"/>
+        <method signature="women.validate_BIBA_Productpage()[pri:0, instance:com.ajio.women@1e097d59]" name="validate_BIBA_Productpage" class="com.ajio.women"/>
+        <method signature="Kids.validate_Brand(java.lang.String)[pri:0, instance:com.ajio.Kids@4331d187]" name="validate_Brand" class="com.ajio.Kids"/>
+        <method signature="Kids.validate_Brand_Element(java.lang.String)[pri:0, instance:com.ajio.Kids@4331d187]" name="validate_Brand_Element" class="com.ajio.Kids"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-09-21T22:14:30Z" name="Test1" finished-at="2024-09-21T22:15:21Z" duration-ms="51462">
+      <class name="com.ajio.women">
+        <test-method is-config="true" signature="launch_Application(java.lang.String, java.lang.String)[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:44:30Z" name="launch_Application" finished-at="2024-09-22T03:45:01Z" duration-ms="30993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.myntra.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Application -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:01Z" name="before" finished-at="2024-09-22T03:45:01Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Click_On_Women()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:01Z" name="Click_On_Women" finished-at="2024-09-22T03:45:05Z" duration-ms="3913" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Assertion Failure]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Assertion Failure
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:38)
+	at com.ajio.women.Click_On_Women(women.java:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Women -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:05Z" name="after" finished-at="2024-09-22T03:45:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:05Z" name="before" finished-at="2024-09-22T03:45:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Click_On_Women()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:05Z" name="Click_On_Women" finished-at="2024-09-22T03:45:14Z" duration-ms="8806" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Assertion Failure]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Assertion Failure
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:38)
+	at com.ajio.women.Click_On_Women(women.java:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Women -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:14Z" name="after" finished-at="2024-09-22T03:45:14Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:14Z" name="before" finished-at="2024-09-22T03:45:14Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Click_On_Women()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:14Z" name="Click_On_Women" finished-at="2024-09-22T03:45:15Z" duration-ms="1154" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Assertion Failure]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Assertion Failure
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:38)
+	at com.ajio.women.Click_On_Women(women.java:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Women -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:15Z" name="after" finished-at="2024-09-22T03:45:15Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:15Z" name="before" finished-at="2024-09-22T03:45:15Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Validate_Women_Page()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:15Z" name="Validate_Women_Page" finished-at="2024-09-22T03:45:15Z" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Women_Page -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:15Z" name="after" finished-at="2024-09-22T03:45:15Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:15Z" name="before" finished-at="2024-09-22T03:45:15Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="click_On_BIBA()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:15Z" name="click_On_BIBA" finished-at="2024-09-22T03:45:19Z" duration-ms="3692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_On_BIBA -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:19Z" name="after" finished-at="2024-09-22T03:45:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method signature="validate_BIBA_Productpage()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:19Z" name="validate_BIBA_Productpage" finished-at="2024-09-22T03:45:20Z" duration-ms="1340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_BIBA_Productpage -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:19Z" name="before" finished-at="2024-09-22T03:45:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:20Z" name="after" finished-at="2024-09-22T03:45:20Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method signature="nextpage_on_BIBA()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:20Z" name="nextpage_on_BIBA" finished-at="2024-09-22T03:45:20Z" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nextpage_on_BIBA -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:20Z" name="before" finished-at="2024-09-22T03:45:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="nextpage_on_BIBA()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:20Z" name="nextpage_on_BIBA" finished-at="2024-09-22T03:45:21Z" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nextpage_on_BIBA -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:20Z" name="before" finished-at="2024-09-22T03:45:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:20Z" name="after" finished-at="2024-09-22T03:45:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:21Z" name="after" finished-at="2024-09-22T03:45:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:21Z" name="before" finished-at="2024-09-22T03:45:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="nextpage_on_BIBA()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:21Z" name="nextpage_on_BIBA" finished-at="2024-09-22T03:45:21Z" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nextpage_on_BIBA -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:21Z" name="after" finished-at="2024-09-22T03:45:21Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="close_The_Application()[pri:0, instance:com.ajio.women@1e097d59]" started-at="2024-09-22T03:45:21Z" name="close_The_Application" finished-at="2024-09-22T03:45:21Z" duration-ms="563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_The_Application -->
+      </class> <!-- com.ajio.women -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-09-21T22:14:30Z" name="Test2" finished-at="2024-09-21T22:16:27Z" duration-ms="116781">
+      <class name="com.ajio.Kids">
+        <test-method is-config="true" signature="launch_Application(java.lang.String, java.lang.String)[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:44:30Z" name="launch_Application" finished-at="2024-09-22T03:45:04Z" duration-ms="34624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.myntra.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Application -->
+        <test-method signature="click_On_Kids()[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:45:04Z" name="click_On_Kids" finished-at="2024-09-22T03:45:08Z" duration-ms="3408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_On_Kids -->
+        <test-method is-config="true" signature="before_Method()[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:45:04Z" name="before_Method" finished-at="2024-09-22T03:45:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_Method -->
+        <test-method is-config="true" signature="after_Method()[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:45:08Z" name="after_Method" finished-at="2024-09-22T03:45:08Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_Method -->
+        <test-method is-config="true" signature="before_Method()[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:45:08Z" name="before_Method" finished-at="2024-09-22T03:45:08Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_Method -->
+        <test-method signature="validate_Brand_Element(java.lang.String)[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:45:08Z" name="validate_Brand_Element" data-provider="link" finished-at="2024-09-22T03:45:19Z" duration-ms="10730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Allensolly junior]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Brand_Element -->
+        <test-method signature="validate_Brand_Element(java.lang.String)[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:45:19Z" name="validate_Brand_Element" data-provider="link" finished-at="2024-09-22T03:45:24Z" duration-ms="5927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nautinati]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Brand_Element -->
+        <test-method is-config="true" signature="after_Method()[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:45:19Z" name="after_Method" finished-at="2024-09-22T03:45:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_Method -->
+        <test-method is-config="true" signature="before_Method()[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:45:19Z" name="before_Method" finished-at="2024-09-22T03:45:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_Method -->
+        <test-method is-config="true" signature="after_Method()[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:45:24Z" name="after_Method" finished-at="2024-09-22T03:45:24Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_Method -->
+        <test-method is-config="true" signature="before_Method()[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:45:24Z" name="before_Method" finished-at="2024-09-22T03:45:24Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_Method -->
+        <test-method signature="validate_Brand(java.lang.String)[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:45:24Z" name="validate_Brand" data-provider="link" finished-at="2024-09-22T03:45:26Z" duration-ms="1477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Allensolly junior]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Brand -->
+        <test-method is-config="true" signature="after_Method()[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:45:26Z" name="after_Method" finished-at="2024-09-22T03:45:26Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_Method -->
+        <test-method signature="validate_Brand(java.lang.String)[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:45:26Z" name="validate_Brand" data-provider="link" finished-at="2024-09-22T03:45:46Z" duration-ms="20048" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nautinati]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src = 'https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/4d3f0e9d-1b7a-458e-b05b-75d1f51db0411604926460628-15-FavBrands-NautiNati.jpg']"}
+  (Session info: MicrosoftEdge=129.0.2792.52)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c835a48ee89505a6d9de9317b50cae24, findElement {using=xpath, value=//img[@src = 'https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/4d3f0e9d-1b7a-458e-b05b-75d1f51db0411604926460628-15-FavBrands-NautiNati.jpg']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53357}, msedge: {msedgedriverVersion: 129.0.2792.52 (6462e8fc16ec..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53357/devtoo..., se:cdpVersion: 129.0.2792.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c835a48ee89505a6d9de9317b50cae24]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src = 'https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/4d3f0e9d-1b7a-458e-b05b-75d1f51db0411604926460628-15-FavBrands-NautiNati.jpg']"}
+  (Session info: MicrosoftEdge=129.0.2792.52)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c835a48ee89505a6d9de9317b50cae24, findElement {using=xpath, value=//img[@src = 'https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/4d3f0e9d-1b7a-458e-b05b-75d1f51db0411604926460628-15-FavBrands-NautiNati.jpg']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53357}, msedge: {msedgedriverVersion: 129.0.2792.52 (6462e8fc16ec..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53357/devtoo..., se:cdpVersion: 129.0.2792.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c835a48ee89505a6d9de9317b50cae24
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.ajio.Kids.validate_Brand(Kids.java:90)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Brand -->
+        <test-method is-config="true" signature="before_Method()[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:45:26Z" name="before_Method" finished-at="2024-09-22T03:45:26Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_Method -->
+        <test-method is-config="true" signature="after_Method()[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:45:46Z" name="after_Method" finished-at="2024-09-22T03:45:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_Method -->
+        <test-method signature="validate_Brand(java.lang.String)[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:45:46Z" name="validate_Brand" data-provider="link" finished-at="2024-09-22T03:46:06Z" duration-ms="20077" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nautinati]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src = 'https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/4d3f0e9d-1b7a-458e-b05b-75d1f51db0411604926460628-15-FavBrands-NautiNati.jpg']"}
+  (Session info: MicrosoftEdge=129.0.2792.52)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c835a48ee89505a6d9de9317b50cae24, findElement {using=xpath, value=//img[@src = 'https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/4d3f0e9d-1b7a-458e-b05b-75d1f51db0411604926460628-15-FavBrands-NautiNati.jpg']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53357}, msedge: {msedgedriverVersion: 129.0.2792.52 (6462e8fc16ec..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53357/devtoo..., se:cdpVersion: 129.0.2792.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c835a48ee89505a6d9de9317b50cae24]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src = 'https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/4d3f0e9d-1b7a-458e-b05b-75d1f51db0411604926460628-15-FavBrands-NautiNati.jpg']"}
+  (Session info: MicrosoftEdge=129.0.2792.52)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c835a48ee89505a6d9de9317b50cae24, findElement {using=xpath, value=//img[@src = 'https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/4d3f0e9d-1b7a-458e-b05b-75d1f51db0411604926460628-15-FavBrands-NautiNati.jpg']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53357}, msedge: {msedgedriverVersion: 129.0.2792.52 (6462e8fc16ec..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53357/devtoo..., se:cdpVersion: 129.0.2792.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c835a48ee89505a6d9de9317b50cae24
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.ajio.Kids.validate_Brand(Kids.java:90)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Brand -->
+        <test-method is-config="true" signature="before_Method()[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:45:46Z" name="before_Method" finished-at="2024-09-22T03:45:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_Method -->
+        <test-method is-config="true" signature="before_Method()[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:46:06Z" name="before_Method" finished-at="2024-09-22T03:46:06Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_Method -->
+        <test-method is-config="true" signature="after_Method()[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:46:06Z" name="after_Method" finished-at="2024-09-22T03:46:06Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_Method -->
+        <test-method signature="validate_Brand(java.lang.String)[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:46:06Z" name="validate_Brand" data-provider="link" finished-at="2024-09-22T03:46:26Z" duration-ms="20067" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nautinati]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src = 'https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/4d3f0e9d-1b7a-458e-b05b-75d1f51db0411604926460628-15-FavBrands-NautiNati.jpg']"}
+  (Session info: MicrosoftEdge=129.0.2792.52)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c835a48ee89505a6d9de9317b50cae24, findElement {using=xpath, value=//img[@src = 'https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/4d3f0e9d-1b7a-458e-b05b-75d1f51db0411604926460628-15-FavBrands-NautiNati.jpg']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53357}, msedge: {msedgedriverVersion: 129.0.2792.52 (6462e8fc16ec..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53357/devtoo..., se:cdpVersion: 129.0.2792.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c835a48ee89505a6d9de9317b50cae24]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src = 'https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/4d3f0e9d-1b7a-458e-b05b-75d1f51db0411604926460628-15-FavBrands-NautiNati.jpg']"}
+  (Session info: MicrosoftEdge=129.0.2792.52)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c835a48ee89505a6d9de9317b50cae24, findElement {using=xpath, value=//img[@src = 'https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/4d3f0e9d-1b7a-458e-b05b-75d1f51db0411604926460628-15-FavBrands-NautiNati.jpg']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53357}, msedge: {msedgedriverVersion: 129.0.2792.52 (6462e8fc16ec..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53357/devtoo..., se:cdpVersion: 129.0.2792.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c835a48ee89505a6d9de9317b50cae24
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.ajio.Kids.validate_Brand(Kids.java:90)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Brand -->
+        <test-method is-config="true" signature="after_Method()[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:46:26Z" name="after_Method" finished-at="2024-09-22T03:46:26Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_Method -->
+        <test-method is-config="true" signature="close_The_Application()[pri:0, instance:com.ajio.Kids@4331d187]" started-at="2024-09-22T03:46:26Z" name="close_The_Application" finished-at="2024-09-22T03:46:27Z" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_The_Application -->
+      </class> <!-- com.ajio.Kids -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
